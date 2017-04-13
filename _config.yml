@@ -79,6 +79,8 @@ duoshuo: false
 disqus_shortname: taofeng
 # disqus_shortname:
 
+reward: true
+
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
@@ -113,6 +115,6 @@ deploy:
 # feed:
 #     type: atom
 #     path: atom.xml
-#     limit: 100
+    # limit: 100
 admin:
   deployCommand: './hexo-deploy.sh'
